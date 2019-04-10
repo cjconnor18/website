@@ -21,4 +21,5 @@ var date = new Date();
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 document.getElementById("dateNavMonth").innerHTML = months[date.getMonth()];
 document.getElementById("dateNavDay").innerHTML = date.getDate();
+document.getElementById("dateNavYear").innerHTML = date.getFullYear();
 document.getElementById("dateYear").innerHTML = date.getFullYear();
