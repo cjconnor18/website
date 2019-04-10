@@ -17,6 +17,10 @@ nav {
 nav ul{
   list-style: none;
 }
+.dateNav{
+  text-align: center;
+  padding: 0.25em .75em;
+}
 nav ul a{
   color: inherit;
   text-decoration: none;
@@ -33,6 +37,14 @@ nav ul a:hover{
 }
 #eventsDropMenu{
   display: none;
+}
+.eventsDropMenu{
+  margin: 0 2em 0 53%;
+  ;
+}
+.eventsDropMenu a{
+  text-align: left;
+  
 }
   
 main{
