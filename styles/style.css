@@ -28,6 +28,9 @@ nav ul a:hover{
   background-color: #fff;
   color: #00f;
 }
+#eventsDropMenu{
+  display: none;
+}
 main{
   padding: 2em 1em;
 }
