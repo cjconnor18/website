@@ -28,6 +28,9 @@ nav ul a:hover{
   background-color: #fff;
   color: #00f;
 }
+.eventsButton{
+  position: relative;
+}
 #eventsDropMenu{
   display: none;
 }
@@ -49,7 +52,17 @@ footer{
     display: inline-block;
   }
   #eventsDropMenu li{
-  display: block;
+    display: block;
+  }
+  .eventsDropMenu{
+    position: absolute;
+    background-color: #00f;
+    border-top: .01em solid #ccc;
+    margin: 0 0 0 1.5em;
+    box-shadow: .4em .4em .2em #ccc;
+  }
+  .eventsDropMenu a{
+    text-align: left;
   }
   nav ul a{
     padding: .25em 1em;
