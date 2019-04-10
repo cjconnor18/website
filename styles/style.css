@@ -52,7 +52,7 @@ footer{
   display: block;
   }
   nav ul a{
-    padding: .25em 2em;
+    padding: .25em 1em;
   }
   .contact{
     float: right;
