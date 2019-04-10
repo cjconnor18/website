@@ -31,6 +31,7 @@ nav ul a:hover{
 #eventsDropMenu{
   display: none;
 }
+  
 main{
   padding: 2em 1em;
 }
@@ -46,6 +47,9 @@ footer{
 @media screen and (min-width: 480px) {
   nav ul li{
     display: inline-block;
+  }
+  #eventsDropMenu li{
+  display: block;
   }
   nav ul a{
     padding: .25em 2em;
