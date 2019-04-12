@@ -8,12 +8,12 @@ function eventsFunction(){
   }
 };
 window.onclick = function(event) {
-  if(!event.target.matches("#eventsButton")){
+  if(!event.target.matches("#eventsButton") && !event.target.matches("#eventsDropMenu")){
     var dropdowns = document.getElementById("eventsDropMenu");
-   
+
     if (dropdowns.style.display === "block") {
         dropdowns.style.display = "none";
-    } 
+    }
   }
 };
 /*Date Formulas*/
