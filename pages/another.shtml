@@ -1,4 +1,4 @@
 <html>
 <title>Test</title>
-<!--#config timefmt="%A"--><!--#echo var="DATE_LOCAL"-->
+<!--#config timefmt="%A" --><!--#echo var="DATE_LOCAL" -->
 </html>
