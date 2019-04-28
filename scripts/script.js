@@ -28,7 +28,7 @@ document.getElementById("myNav").innerHTML =
   "<ul>"
     + "<li class='dateNav'>" + months[date.getMonth()] +" "+ date.getDate() +", "+ date.getFullYear() +"<span id='dateNavMonth'></span> <span id='dateNavDay'></span> <span id='dateNavYear'></span></li>"
     + "<li><a href='index.html'>Home</a></li>"
-    + "<li><a onclick="eventsFunction(); +"id='eventsButton' class='eventsButton' href='#'>Events</a>"
+    + "<li><a onclick="eventsFunction(); + "id='eventsButton' class='eventsButton' href='#'>Events</a>"
       + "<ul id='eventsDropMenu' class='eventsDropMenu'>"
         + "<li><a href='pages/passwordgrad.html'>Graduation</a></li>"
         + "<li><a href='pages/passwordrev.html'>Reveal</a></li>"
