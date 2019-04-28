@@ -22,8 +22,4 @@ document.getElementById("myNav").innerHTML =
     + "<li class='contact'><a href='contact'>Contact</a></li>"
   + "</ul>";
 document.getElementById("myFooter").innerHTML =
-	"<p>23Connor &copy;" + new Date().getFullYear() + "</p>"
-	+ " rights reserved.</p>"
-	+ "<p id='credits'>Layout by You</p>"
-	+ "<p id='contact'><a href='mailto:you@you.com'>Contact Us</a> / "
-	+ "<a href='mailto:you@you.com'>Report a problem.</a></p>";
+	"<p>23Connor &copy; " + new Date().getFullYear() + "</p>";
