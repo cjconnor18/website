@@ -1,10 +1,8 @@
 document.getElementById("myHead").innerHTML =
 	"<h1>23Connor</h1>";
+  /*Date Formulas*/
 var date = new Date();
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-
-
-
 document.getElementById("myNav").innerHTML =
   "<ul>"
     + "<li class='dateNav'>" + months[date.getMonth()]; +" "+ date.getDate(); +", "+ date.getFullYear(); +"<span id='dateNavMonth'></span> <span id='dateNavDay'></span> <span id='dateNavYear'></span></li>"
@@ -43,9 +41,3 @@ window.onclick = function(event) {
     }
   }
 };
-/*Date Formulas*/
-
-document.getElementById("dateNavMonth").innerHTML = months[date.getMonth()];
-document.getElementById("dateNavDay").innerHTML = date.getDate();
-document.getElementById("dateNavYear").innerHTML = date.getFullYear();
-document.getElementById("dateYear").innerHTML = date.getFullYear();
