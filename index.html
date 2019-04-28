@@ -12,11 +12,10 @@
 </head>
 <body>
 
-  <header>
-    <?php include 'header.php';?>
-    <h1>23Connor</h1>
+  <header id="headnav">
   </header>
   <nav>
+    <h1>23Connor</h1>
     <ul>
       <li class="dateNav"><span id="dateNavMonth"></span> <span id="dateNavDay"></span> <span id="dateNavYear"></span></li>
       <li><a href="index.html">Home</a></li>
@@ -40,5 +39,10 @@
     <p>23Connor &copy; <span id="dateYear"></span></p>
   </footer>
   <script src="scripts/script.js"></script>
+  <script>
+    $(function () {
+      $("#headnav").load("header.html");
+    });
+  </script>
 </body>
 </html>
