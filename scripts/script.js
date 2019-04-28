@@ -1,5 +1,5 @@
 document.getElementById("myHead").innerHTML =
-	"<h1>23Connor</h1>"
+	"<h1>23Connor</h1>";
 document.getElementById("myNav").innerHTML =
   "<ul>"
     + "<li class="dateNav"><span id="dateNavMonth"></span> <span id="dateNavDay"></span> <span id="dateNavYear"></span></li>"
