@@ -4,6 +4,24 @@ document.getElementById("myHead").innerHTML =
 var date = new Date();
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
+/*Functions for navigation bar menus*/
+var x = document.getElementById("eventsDropMenu");
+function eventsFunction(){
+  if(x.style.display === "block"){
+    x.style.display = "none";
+  }else{
+     x.style.display = "block";
+  }
+};
+window.onclick = function(event) {
+  if(!event.target.matches("#eventsButton") && !event.target.matches("#eventsDropMenu")){
+    var dropdowns = document.getElementById("eventsDropMenu");
+
+    if (dropdowns.style.display === "block") {
+        dropdowns.style.display = "none";
+    }
+  }
+};
 
 
 document.getElementById("myNav").innerHTML =
@@ -26,21 +44,3 @@ document.getElementById("myFooter").innerHTML =
 	+ "<p id='credits'>Layout by You</p>"
 	+ "<p id='contact'><a href='mailto:you@you.com'>Contact Us</a> / "
 	+ "<a href='mailto:you@you.com'>Report a problem.</a></p>";
-/*Functions for navigation bar menus*/
-var x = document.getElementById("eventsDropMenu");
-function eventsFunction(){
-  if(x.style.display === "block"){
-    x.style.display = "none";
-  }else{
-     x.style.display = "block";
-  }
-};
-window.onclick = function(event) {
-  if(!event.target.matches("#eventsButton") && !event.target.matches("#eventsDropMenu")){
-    var dropdowns = document.getElementById("eventsDropMenu");
-
-    if (dropdowns.style.display === "block") {
-        dropdowns.style.display = "none";
-    }
-  }
-};
