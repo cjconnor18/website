@@ -13,6 +13,7 @@ document.getElementById("myNav").innerHTML =
       + "<ul id='eventsDropMenu' class='eventsDropMenu'>"
         + "<li><a href='/pages/passwordgrad.html'>Graduation</a></li>"
         + "<li><a href='/pages/passwordrev.html'>Reveal</a></li>"
+        + "<li><a href='/pages/passwordjmac.html'>Jesse McCartney</a></li>"
         + "<!--<li><a href='/pages/another.html'>Another</a></li>-->"
       + "</ul>"
     + "</li>"
