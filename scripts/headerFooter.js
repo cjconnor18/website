@@ -19,7 +19,7 @@ document.getElementById("myNav").innerHTML =
       + "</ul>"
     + "</li>"
     + "<li><a href='/pages/about.html'>About</a></li>"
-    + "<li class='/pages/contact'><a href='contact'>Contact</a></li>"
+    + "<li class='contact'><a href='/pages/contact'>Contact</a></li>"
   + "</ul>";
 document.getElementById("myFooter").innerHTML =
 	"<p>23Connor &copy; " + new Date().getFullYear() + "</p>";
