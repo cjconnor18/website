@@ -18,6 +18,7 @@ document.getElementById("myNav").innerHTML =
       + "</ul>"
     + "</li>"
     + "<li><a href='/pages/about.html'>About</a></li>"
+    + "<li><a href='/pages/games.html'>Games</a></li>"
     + "<li class='contact'><a href='/pages/contact'>Contact</a></li>"
   + "</ul>";
   /*Footer*/
