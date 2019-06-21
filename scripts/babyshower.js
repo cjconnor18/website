@@ -31,7 +31,7 @@ var moms5Q = "This mom has a multilanguage daughter at age 3";
 
 function facts1(obj){
   obj.style.backgroundColor = "#00f";
-  obj.style.padding = 3px;
+  obj.style.padding = "3px";
   obj.innerHTML = facts1Q;
 }
 function facts2(obj){
