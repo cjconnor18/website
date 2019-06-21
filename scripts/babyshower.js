@@ -10,6 +10,11 @@ var things3Q = "Baby dining";
 var things4Q = "Versatile baby transport";
 var things5Q = "Hangs over crib while stimulating & soothing baby";
 
+var rhymes1Q = "This lady uses siver bells and cockshells to make her garden grow";
+var rhymes2Q = "This fellow loved pumpkin so much he wanted to put his wife in one as well";
+var rhymes3Q = "Little Tucker had to sing for this supper";
+var rhymes4Q = "This sad guy is under the haystack fast asleep but if you startle him he will cry";
+var rhymes5Q = "The old lady swallowed a lot including a fly, spider, bird & cat. But this she swallowed last";
 
 function facts1(obj){
   obj.style.backgroundColor = "#00f";
@@ -53,6 +58,26 @@ function things5(obj){
   obj.innerHTML = things5Q;
 }
 
+function rhymes1(obj){
+  obj.style.backgroundColor = "#00f";
+  obj.innerHTML = rhymes1Q;
+}
+function rhymes2(obj){
+  obj.style.backgroundColor = "#00f";
+  obj.innerHTML = rhymes2Q;
+}
+function rhymes3(obj){
+  obj.style.backgroundColor = "#00f";
+  obj.innerHTML = rhymes3Q;
+}
+function rhymes4(obj){
+  obj.style.backgroundColor = "#00f";
+  obj.innerHTML = rhymes4Q;
+}
+function rhymes5(obj){
+  obj.style.backgroundColor = "#00f";
+  obj.innerHTML = rhymes5Q;
+}
 
 
 
