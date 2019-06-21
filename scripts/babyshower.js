@@ -30,132 +30,82 @@ var moms4Q = "This sexy city fashionista added twins to her family via surrogate
 var moms5Q = "This mom has a multilanguage daughter at age 3";
 
 function facts1(obj){
-  obj.style.backgroundColor = "#00f";
-
   obj.innerHTML = facts1Q;
 }
 function facts2(obj){
-  obj.style.backgroundColor = "#00f";
-
   obj.innerHTML = facts2Q;
 }
 function facts3(obj){
-  obj.style.backgroundColor = "#00f";
-
   obj.innerHTML = facts3Q;
 }
 function facts4(obj){
-  obj.style.backgroundColor = "#00f";
-
   obj.innerHTML = facts4Q;
 }
 function facts5(obj){
-  obj.style.backgroundColor = "#00f";
-
   obj.innerHTML = facts5Q;
 }
 
 function things1(obj){
-  obj.style.backgroundColor = "#00f";
-
   obj.innerHTML = things1Q;
 }
 function things2(obj){
-  obj.style.backgroundColor = "#00f";
-
   obj.innerHTML = things2Q;
 }
 function things3(obj){
-  obj.style.backgroundColor = "#00f";
-
   obj.innerHTML = things3Q;
 }
 function things4(obj){
-  obj.style.backgroundColor = "#00f";
-
   obj.innerHTML = things4Q;
 }
 function things5(obj){
-  obj.style.backgroundColor = "#00f";
-
   obj.innerHTML = things5Q;
 }
 
 function rhymes1(obj){
-  obj.style.backgroundColor = "#00f";
-
   obj.innerHTML = rhymes1Q;
 }
 function rhymes2(obj){
-  obj.style.backgroundColor = "#00f";
-
   obj.innerHTML = rhymes2Q;
 }
 function rhymes3(obj){
-  obj.style.backgroundColor = "#00f";
-
   obj.innerHTML = rhymes3Q;
 }
 function rhymes4(obj){
-  obj.style.backgroundColor = "#00f";
-
   obj.innerHTML = rhymes4Q;
 }
 function rhymes5(obj){
-  obj.style.backgroundColor = "#00f";
-
   obj.innerHTML = rhymes5Q;
 }
 
 function parts1(obj){
-  obj.style.backgroundColor = "#00f";
-
   obj.innerHTML = parts1Q;
 }
 function parts2(obj){
-  obj.style.backgroundColor = "#00f";
-
   obj.innerHTML = parts2Q;
 }
 function parts3(obj){
-  obj.style.backgroundColor = "#00f";
-
   obj.innerHTML = parts3Q;
 }
 function parts4(obj){
-  obj.style.backgroundColor = "#00f";
-
   obj.innerHTML = parts4Q;
 }
 function parts5(obj){
-  obj.style.backgroundColor = "#00f";
-
   obj.innerHTML = parts5Q;
 }
 
 function moms1(obj){
-  obj.style.backgroundColor = "#00f";
-
   obj.innerHTML = moms1Q;
 }
 function moms2(obj){
-  obj.style.backgroundColor = "#00f";
-
   obj.innerHTML = moms2Q;
 }
 function moms3(obj){
-  obj.style.backgroundColor = "#00f";
-
   obj.innerHTML = moms3Q;
 }
 function moms4(obj){
-  obj.style.backgroundColor = "#00f";
-
   obj.innerHTML = moms4Q;
 }
 function moms5(obj){
-  obj.style.backgroundColor = "#00f";
-
   obj.innerHTML = moms5Q;
 }
 
@@ -170,7 +120,6 @@ function moms5(obj){
 
 
 function answered(obj){
-  obj.style.backgroundColor = "#00f";
   obj.style.border = "0px solid #fff";
   obj.style.padding = "10px";
   obj.innerHTML = "";
