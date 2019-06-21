@@ -121,6 +121,6 @@ function moms5(obj){
 
 function answered(obj){
   obj.style.border = "0px solid #fff";
-  obj.style.padding = "30px";
+  obj.style.padding = "40px";
   obj.innerHTML = "";
 }
