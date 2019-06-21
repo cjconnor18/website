@@ -1,5 +1,6 @@
 *{
   color: white;
+  background-color: #00f;
 }
 .grid-container {
   display: grid;
@@ -7,6 +8,14 @@
   background-color: #00f;
   padding: 10px;
 }
+.grid-itemHeader {
+  background-color: #00f;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
 
 .grid-item {
   background-color: #00f;
