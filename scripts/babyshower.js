@@ -23,7 +23,7 @@ function facts4(obj){
   obj.style.backgroundColor = "#00f";
   obj.innerHTML = facts4Q;
 }
-function facts5(obj){
+function answered(obj){
   obj.style.backgroundColor = "#00f";
   obj.innerHTML = facts5Q;
 }
