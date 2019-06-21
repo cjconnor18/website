@@ -10,7 +10,7 @@ var things3Q = "Baby dining";
 var things4Q = "Versatile baby transport";
 var things5Q = "Hangs over crib while stimulating & soothing baby";
 
-var rhymes1Q = "This lady uses siver bells and cockshells to make her garden grow";
+var rhymes1Q = "This lady uses silver bells and cockshells to make her garden grow";
 var rhymes2Q = "This fellow loved pumpkin so much he wanted to put his wife in one as well";
 var rhymes3Q = "Little Tucker had to sing for this supper";
 var rhymes4Q = "This sad guy is under the haystack fast asleep but if you startle him he will cry";
