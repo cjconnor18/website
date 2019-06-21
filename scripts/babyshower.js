@@ -62,100 +62,100 @@ function things1(obj){
 }
 function things2(obj){
   obj.style.backgroundColor = "#00f";
-  obj.style.padding = 0;
+  obj.style.padding = 3px;
   obj.innerHTML = things2Q;
 }
 function things3(obj){
   obj.style.backgroundColor = "#00f";
-  obj.style.padding = 0;
+  obj.style.padding = 3px;
   obj.innerHTML = things3Q;
 }
 function things4(obj){
   obj.style.backgroundColor = "#00f";
-  obj.style.padding = 0;
+  obj.style.padding = 3px;
   obj.innerHTML = things4Q;
 }
 function things5(obj){
   obj.style.backgroundColor = "#00f";
-  obj.style.padding = 0;
+  obj.style.padding = 3px;
   obj.innerHTML = things5Q;
 }
 
 function rhymes1(obj){
   obj.style.backgroundColor = "#00f";
-  obj.style.padding = 0;
+  obj.style.padding = 3px;
   obj.innerHTML = rhymes1Q;
 }
 function rhymes2(obj){
   obj.style.backgroundColor = "#00f";
-  obj.style.padding = 0;
+  obj.style.padding = 3px;
   obj.innerHTML = rhymes2Q;
 }
 function rhymes3(obj){
   obj.style.backgroundColor = "#00f";
-  obj.style.padding = 0;
+  obj.style.padding = 3px;
   obj.innerHTML = rhymes3Q;
 }
 function rhymes4(obj){
   obj.style.backgroundColor = "#00f";
-  obj.style.padding = 0;
+  obj.style.padding = 3px;
   obj.innerHTML = rhymes4Q;
 }
 function rhymes5(obj){
   obj.style.backgroundColor = "#00f";
-  obj.style.padding = 0;
+  obj.style.padding = 3px;
   obj.innerHTML = rhymes5Q;
 }
 
 function parts1(obj){
   obj.style.backgroundColor = "#00f";
-  obj.style.padding = 0;
+  obj.style.padding = 3px;
   obj.innerHTML = parts1Q;
 }
 function parts2(obj){
   obj.style.backgroundColor = "#00f";
-  obj.style.padding = 0;
+  obj.style.padding = 3px;
   obj.innerHTML = parts2Q;
 }
 function parts3(obj){
   obj.style.backgroundColor = "#00f";
-  obj.style.padding = 0;
+  obj.style.padding = 3px;
   obj.innerHTML = parts3Q;
 }
 function parts4(obj){
   obj.style.backgroundColor = "#00f";
-  obj.style.padding = 0;
+  obj.style.padding = 3px;
   obj.innerHTML = parts4Q;
 }
 function parts5(obj){
   obj.style.backgroundColor = "#00f";
-  obj.style.padding = 0;
+  obj.style.padding = 3px;
   obj.innerHTML = parts5Q;
 }
 
 function moms1(obj){
   obj.style.backgroundColor = "#00f";
-  obj.style.padding = 0;
+  obj.style.padding = 3px;
   obj.innerHTML = moms1Q;
 }
 function moms2(obj){
   obj.style.backgroundColor = "#00f";
-  obj.style.padding = 0;
+  obj.style.padding = 3px;
   obj.innerHTML = moms2Q;
 }
 function moms3(obj){
   obj.style.backgroundColor = "#00f";
-  obj.style.padding = 0;
+  obj.style.padding = 3px;
   obj.innerHTML = moms3Q;
 }
 function moms4(obj){
   obj.style.backgroundColor = "#00f";
-  obj.style.padding = 0;
+  obj.style.padding = 3px;
   obj.innerHTML = moms4Q;
 }
 function moms5(obj){
   obj.style.backgroundColor = "#00f";
-  obj.style.padding = 0;
+  obj.style.padding = 3px;
   obj.innerHTML = moms5Q;
 }
 
