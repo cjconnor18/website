@@ -4,7 +4,11 @@ var facts3Q = "First sense that a baby develops";
 var facts4Q = "Most babies are born in this month";
 var facts5Q = "Babies are born with this many bones";
 
-
+var things1Q = "Conveniently holds all babies essential";
+var things2Q = "Helps babies sore gums when teething";
+var things3Q = "Baby dining";
+var things4Q = "Versatile baby transport";
+var things5Q = "Hangs over crib while stimulating & soothing baby";
 
 
 function facts1(obj){
@@ -27,6 +31,32 @@ function facts5(obj){
   obj.style.backgroundColor = "#00f";
   obj.innerHTML = facts5Q;
 }
+
+function things1(obj){
+  obj.style.backgroundColor = "#00f";
+  obj.innerHTML = things1Q;
+}
+function things2(obj){
+  obj.style.backgroundColor = "#00f";
+  obj.innerHTML = things2Q;
+}
+function things3(obj){
+  obj.style.backgroundColor = "#00f";
+  obj.innerHTML = things3Q;
+}
+function things4(obj){
+  obj.style.backgroundColor = "#00f";
+  obj.innerHTML = things4Q;
+}
+function things5(obj){
+  obj.style.backgroundColor = "#00f";
+  obj.innerHTML = things5Q;
+}
+
+
+
+
+
 
 
 
