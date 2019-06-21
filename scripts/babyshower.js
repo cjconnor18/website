@@ -171,5 +171,6 @@ function moms5(obj){
 
 function answered(obj){
   obj.style.backgroundColor = "#00f";
+  obj.style.border = "2px solid #fff";
   obj.innerHTML = "";
 }
