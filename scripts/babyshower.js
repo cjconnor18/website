@@ -16,7 +16,6 @@ var rhymes3Q = "Little Tucker had to sing for this supper";
 var rhymes4Q = "This sad guy is under the haystack fast asleep but if you startle him he will cry";
 var rhymes5Q = "The old lady swallowed a lot including a fly, spider, bird & cat. But this she swallowed last";
 
-
 var parts1Q = "We see a lot of this shape on Valentine's day";
 var parts2Q = "A baby cow";
 var parts3Q = "A chair has 2 pairs but a baby has one";
@@ -108,16 +107,6 @@ function moms4(obj){
 function moms5(obj){
   obj.innerHTML = moms5Q;
 }
-
-
-
-
-
-
-
-
-
-
 
 function answered(obj){
   obj.style.border = "0px solid #fff";
