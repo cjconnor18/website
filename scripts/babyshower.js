@@ -106,31 +106,38 @@ function parts3(obj){
 }
 function parts4(obj){
   obj.style.backgroundColor = "#00f";
+  obj.style.padding = 0;
   obj.innerHTML = parts4Q;
 }
 function parts5(obj){
   obj.style.backgroundColor = "#00f";
+  obj.style.padding = 0;
   obj.innerHTML = parts5Q;
 }
 
 function moms1(obj){
   obj.style.backgroundColor = "#00f";
+  obj.style.padding = 0;
   obj.innerHTML = moms1Q;
 }
 function moms2(obj){
   obj.style.backgroundColor = "#00f";
+  obj.style.padding = 0;
   obj.innerHTML = moms2Q;
 }
 function moms3(obj){
   obj.style.backgroundColor = "#00f";
+  obj.style.padding = 0;
   obj.innerHTML = moms3Q;
 }
 function moms4(obj){
   obj.style.backgroundColor = "#00f";
+  obj.style.padding = 0;
   obj.innerHTML = moms4Q;
 }
 function moms5(obj){
   obj.style.backgroundColor = "#00f";
+  obj.style.padding = 0;
   obj.innerHTML = moms5Q;
 }
 
