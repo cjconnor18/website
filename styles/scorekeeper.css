@@ -12,10 +12,13 @@
   background-color: #00f;
   border: .1em solid #fff;
   width: 100%;
+  text-align: center;
+
 }
 .team1{
   border-right: .05em solid #fff;
 }
 .team2{
+
   border-left: .05em solid #fff;
 }
