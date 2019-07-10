@@ -5,11 +5,13 @@
 .flex-container{
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 .team1,.team2{
   color: #fff;
   background-color: #00f;
   border: .1em solid #fff;
+  width: 100%;
 }
 .team1{
   border-right: .05em solid #fff;
