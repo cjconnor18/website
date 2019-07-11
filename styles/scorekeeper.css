@@ -31,3 +31,7 @@ h4:hover{
 p{
   font-size: 3em;
 }
+
+#changeTeamNames{
+  display: none;
+}
