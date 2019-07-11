@@ -9,5 +9,8 @@ function scoreUp(x){
   if(x===team1){
     score1x++;
     score1.innerHTML=score1x;
+  } else if (x===team2) {
+    score2x++;
+    score2.innerHTML=score2x;
   }
 }
