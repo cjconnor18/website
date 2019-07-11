@@ -1,10 +1,11 @@
+var x;
 var team1Total=0;
 var team2Total=0;
 
-document.getElementsById('team1Up').onclick=scoreUp(team1)
-document.getElementsById('team1Down').onclick=scoreDown(team1);
-document.getElementsById('team2Up').onclick=scoreUp(team2);
-document.getElementsById('team2Down').onclick=scoreDown(team2);
+document.getElementById('team1Up').onclick=scoreUp(team1)
+document.getElementById('team1Down').onclick=scoreDown(team1);
+document.getElementById('team2Up').onclick=scoreUp(team2);
+document.getElementById('team2Down').onclick=scoreDown(team2);
 
 
 function scoreUp(x){
