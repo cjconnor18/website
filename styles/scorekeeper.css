@@ -28,4 +28,5 @@ button{
 button:hover{
   color: #00f;
   background-color: #fff;
+  border: 0;
 }
