@@ -3,22 +3,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Baby Shower</title>
+  <title>ScoreKeeper</title>
   <link rel="stylesheet" type="text/css" href="/styles/scorekeeper.css">
 </head>
 <body>
   <div class="flex-container">
     <div id="team1">
-      <button id="team1Up">Score +1</button>
+      <button onclick="scoreUp(score1)">Score +1</button>
       <h3 id="name1">Team 1</h3>
       <p id="score1">0</p>
-      <button id=team1Down>Score -1</button>
+      <button onclick="scoreDown(score1)">Score -1</button>
     </div>
     <div id="team2">
-      <button id="team2Up">Score +1</button>
+      <button onclick="scoreUp(score2)">Score +1</button>
       <h3 id="name2">Team 2</h3>
       <p id="score2">0</p>
-      <button id="team2Down">Score -1</button>
+      <button onclick="scoreDown(score2)">Score -1</button>
     </div>
   </div>
 <script src="/scripts/scorekeeper.js"></script>
