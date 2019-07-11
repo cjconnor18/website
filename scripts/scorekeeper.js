@@ -9,19 +9,19 @@ document.getElementById('team2Down').onclick=scoreDown(team2);
 
 
 function scoreUp(x){
-  if(x===team1){
+  if(x==team1){
     team1Total++;
     document.getElementById('score1').innerHTML=team1Total;
-  } else if (x===team2) {
+  } else if (x==team2) {
     team2Total++;
     document.getElementById('score2').innerHTML=team2Total;
   }
 }
 funcation scoreDown(x){
-  if(x===team1){
+  if(x==team1){
     team1Total--;
     document.getElementById('score1').innerHTML=team1Total;
-  } else if(x===team2){
+  } else if(x==team2){
     team2Total--;
     document.getElementById('score2').innerHTML=team2Total;
   }
