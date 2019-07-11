@@ -1,37 +1,33 @@
 *{
-  margin: 0;
-  padding: 0;
+  margin:0;
+  padding:0;
   font-size: 16px;
+  text-align: center;
 }
+
 .flex-container{
   display: flex;
-  justify-content: center;
-  width: 100%;
+  
 }
-#team1,#team2{
+.team1,.team2{
+  width:50%;
   color: #fff;
   background-color: #00f;
-  border: .1em solid #fff;
-  width: 100%;
-  text-align: center;
+  border: .5em solid #fff;
+}
+h3{
+  font-size: 2em;
+
+}
+h4{
   font-size: 1.5em;
+  padding: 1.5em 0;
 }
-#team1{
-  border-right: .05em solid #fff;
-}
-#team2{
-  border-left: .05em solid #fff;
-}
-#score1,#score2{
-  font-size: 3em;
-}
-.button{
-  width: 100%;
-  color: #fff;
-  background-color: #00f;
-  padding: 2em 0;
-}
-.button:hover{
+h4:hover{
+  cursor: pointer;
   color: #00f;
   background-color: #fff;
+}
+p{
+  font-size: 3em;
 }
