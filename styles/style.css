@@ -25,14 +25,14 @@
 #score1,#score2{
   font-size: 3em;
 }
-button{
+.button{
   width: 100%;
   color: #fff;
   background-color: #00f;
   border: none;
   padding: 2em 0;
 }
-button:hover{
+.button:hover{
   color: #00f;
   background-color: #fff;
 }
