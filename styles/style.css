@@ -2,37 +2,84 @@
   margin: 0;
   padding: 0;
 }
-.flex-container{
-  display: flex;
-  justify-content: center;
-  width: 100%;
+body{
+  background-color: #e7e6fa;
 }
-#team1,#team2{
-  color: #fff;
-  background-color: #00f;
-  border: .1em solid #fff;
-  width: 100%;
+header{
   text-align: center;
-  margin-top: 2em;
-  font-size: 1.5em;
+  padding: 1em;
 }
-#team1{
-  border-right: .05em solid #fff;
-}
-#team2{
-  border-left: .05em solid #fff;
-}
-#score1,#score2{
-  font-size: 3em;
-}
-.button{
-  width: 100%;
-  color: #fff;
+nav {
   background-color: #00f;
-  border: none;
-  padding: 2em 0;
+  color: #fff;
+  box-shadow: 0 .20em #aaa;
 }
-.button:hover{
-  color: #00f;
+nav ul{
+  list-style: none;
+}
+.dateNav{
+  text-align: center;
+  padding: 0.25em .75em;
+}
+nav ul a{
+  color: inherit;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: .5em 0;
+}
+nav ul a:hover{
   background-color: #fff;
+  color: #00f;
+}
+.eventsButton{
+  position: relative;
+}
+#eventsDropMenu{
+  display: none;
+}
+.eventsDropMenu{
+  margin: 0 2em 0 53%;
+  ;
+}
+.eventsDropMenu a{
+  text-align: left;
+  
+}
+  
+main{
+  padding: 2em 1em;
+}
+main p{
+  padding: .25em 0;
+}
+footer{
+  background-color: #00f;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+@media screen and (min-width: 480px) {
+  nav ul li{
+    display: inline-block;
+  }
+  #eventsDropMenu li{
+    display: block;
+  }
+  .eventsDropMenu{
+    position: absolute;
+    background-color: #00f;
+    border-top: .01em solid #ccc;
+    margin: 0 0 0 1.5em;
+    box-shadow: .4em .4em .2em #ccc;
+  }
+  .eventsDropMenu a{
+    text-align: left;
+  }
+  nav ul a{
+    padding: .25em 1em;
+  }
+  .contact{
+    float: right;
+  }
 }
