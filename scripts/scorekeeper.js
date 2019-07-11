@@ -1,14 +1,16 @@
-var score1=document.getElementsByClassName('score1');
-var score2=document.getElementsByClassName('score2');
-var x;
+var team1Total=0;
+var team2Total=0;
 
-var score1x=0;
-var score2x=0;
+document.getElementsById('team1Up').onclick=scoreUp(team1)
+document.getElementsById('team1Down').onclick=scoreDown(team1);
+document.getElementsById('team2Up').onclick=scoreUp(team2);
+document.getElementsById('team2Down').onclick=scoreDown(team2);
+
 
 function scoreUp(x){
   if(x===team1){
-    score1x++;
-    score1.innerHTML=score1x;
+    team1Total++;
+    document.getElementById('score1').innerHTML=team1Total;
   } else if (x===team2) {
     score2x++;
     score2.innerHTML=score2x;
