@@ -13,7 +13,7 @@ function scoreUp(x){
     team1Total++;
     document.getElementById('score1').innerHTML=team1Total;
   } else if (x===team2) {
-    score2x++;
-    score2.innerHTML=score2x;
+    team2Total++;
+    document.getElementById('score2').innerHTML=team2Total;
   }
 }
