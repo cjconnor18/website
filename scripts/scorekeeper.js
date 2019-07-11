@@ -17,3 +17,12 @@ function scoreUp(x){
     document.getElementById('score2').innerHTML=team2Total;
   }
 }
+funcation scoreDown(x){
+  if(x===team1){
+    team1Total--;
+    document.getElementById('score1').innerHTML=team1Total;
+  } else if(x===team2){
+    team2Total--;
+    document.getElementById('score2').innerHTML=team2Total;
+  }
+}
