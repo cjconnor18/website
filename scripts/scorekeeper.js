@@ -1,23 +1,14 @@
-var team;
-var team1Total=0;
-var team2Total=0;
+var scoreTeam1=0;
+var scoreTeam2=0;
+var id;
+var x;
 
-function scoreUp(team){
-  if(team==score1){
-    team1Total++;
-    document.getElementById('score1').innerHTML=team1Total;
-  } else if (team==score2) {
-    team2Total++;
-    team.innerHTML=team2Total;
-  }
-}
-
-function scoreDown(team){
-  if(team==score1){
-    team1Total--;
-    document.getElementById('score1').innerHTML=team1Total;
-  } else if(team==score2){
-    team2Total--;
-    document.getElementById('score2').innerHTML=team2Total;
+function scoreChange(id,x){
+  if(id==score1){
+    scoreTeam1=scoreTeam1+x;
+    id.innerHTML=scoreTeam1;
+    }else if(id==score2){
+    scoreTeam2=scoreTeam2+x;
+    id.innerHTML=scoreTeam2;
   }
 }
