@@ -7,5 +7,5 @@ html, body {
   position:fixed; /* or absolute (or not..) depending on your goal */
   left:0;
   top:0;
-  background-color: aliceBlue;
+  background-color: #ffffff;
 }
