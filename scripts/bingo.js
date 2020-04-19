@@ -1,13 +1,29 @@
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 
+window.addEventListener('resize', resizeCanvas, false);
+
+resizeCanvas();    /// call the first time page is loaded
+
+function resizeCanvas() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    if(canvas.width > 500) {
+      canvas.width = 500;
+    }
+    if(canvas.height > 600) {
+      canvas.width = 600;
+    }
+}
+
+
 var textFill = "#ffffff";
 var boxFill = "#0000ff";
 
-var widthOfBox = 90;
-var lengthOfBox = 90;
-var startingX = 5;
-var startingY = 105;
+var widthOfBox = (90/500) * canvas.width;
+var lengthOfBox = (90/600) * canvas.height;
+var startingX = (5/500) * canvas.width;
+var startingY = (105/600) * canvas.height;
 
 var b = 1;
 var i = 1;
@@ -83,53 +99,53 @@ class Block {
       }
     }
     ctx.fillStyle = (textFill);
-    ctx.fillText(this.boxNumber, this.x + widthOfBox/2, this.y + (widthOfBox+30)/2);
+    ctx.fillText(this.boxNumber, this.x + widthOfBox/2, this.y + (lengthOfBox+((30/600) * canvas.height))/2);
   }
 }
 
 
 ctx.fillStyle = boxFill;
-ctx.fillRect(5, 5, 490, 90);
+ctx.fillRect(startingX, (5/600) * canvas.height, (490/500) * canvas.width, (90/600) * canvas.height);
 
 ctx.font = "50px Arial";
 ctx.fillStyle = (textFill);
 ctx.textAlign = "center";
-ctx.fillText("B", 5 + widthOfBox/2, 5 + (widthOfBox+30)/2);
-ctx.fillText("I", 105 + widthOfBox/2, 5 + (widthOfBox+30)/2);
-ctx.fillText("N", 205 + widthOfBox/2, 5 + (widthOfBox+30)/2);
-ctx.fillText("G", 305 + widthOfBox/2, 5 + (widthOfBox+30)/2);
-ctx.fillText("O", 405 + widthOfBox/2, 5 + (widthOfBox+30)/2);
+ctx.fillText("B", ((5/500) * canvas.width) + widthOfBox/2, ((5/600) * canvas.height) + (widthOfBox+30)/2);
+ctx.fillText("I", ((105/500) * canvas.width) + widthOfBox/2, ((5/600) * canvas.height) + (widthOfBox+30)/2);
+ctx.fillText("N", ((205/500) * canvas.width) + widthOfBox/2, ((5/600) * canvas.height) + (widthOfBox+30)/2);
+ctx.fillText("G", ((305/500) * canvas.width) + widthOfBox/2, ((5/600) * canvas.height) + (widthOfBox+30)/2);
+ctx.fillText("O", ((405/500) * canvas.width) + widthOfBox/2, ((5/600) * canvas.height) + (widthOfBox+30)/2);
 
 while(b < 6) {
-  var newBlock = new Block(startingX, startingY +((b - 1) * 100), "B", b);
+  var newBlock = new Block(startingX, startingY +((b - 1) * ((100/600) * canvas.height)), "B", b);
   newBlock.makeRect();
   boxes.push(newBlock);
   
   b++;
 }
 while(i < 6) {
-  var newBlock = new Block(startingX + 100, startingY +((i - 1) * 100), "I", i);
+  var newBlock = new Block(startingX + ((100/500) * canvas.width), startingY +((i - 1) * ((100/600) * canvas.height)), "I", i);
   newBlock.makeRect();
   boxes.push(newBlock);
   
   i++;
 }
 while(n < 6) {
-  var newBlock = new Block(startingX + 200, startingY +((n - 1) * 100), "N", n);
+  var newBlock = new Block(startingX + ((200/500) * canvas.width), startingY +((n - 1) * ((100/600) * canvas.height)), "N", n);
   newBlock.makeRect();
   boxes.push(newBlock);
 
   n++;
 }
 while(g < 6) {
-  var newBlock = new Block(startingX + 300, startingY +((g - 1) * 100), "G", g);
+  var newBlock = new Block(startingX + ((300/500) * canvas.width), startingY +((g - 1) * ((100/600) * canvas.height)), "G", g);
   newBlock.makeRect();
   boxes.push(newBlock);
   
   g++;
 }
 while(o < 6) {
-  var newBlock = new Block(startingX + 400, startingY +((o - 1) * 100), "O", o);
+  var newBlock = new Block(startingX + ((400/500) * canvas.width), startingY +((o - 1) * ((100/600) * canvas.height)), "O", o);
   newBlock.makeRect();
   boxes.push(newBlock);
   
@@ -137,8 +153,8 @@ while(o < 6) {
 }
 
 function isIntersect(point, box) {
-  if(point.x > box.x && point.x < box.x + 90) {
-    if(point.y > box.y && point.y < box.y + 90){
+  if(point.x > box.x && point.x < box.x + ((90/500) * canvas.width)) {
+    if(point.y > box.y && point.y < box.y + ((90/600) * canvas.height)){
       return true;
     } else {
       return false;
@@ -150,7 +166,7 @@ function isIntersect(point, box) {
 
 function createCircle(x, y) {
   ctx.beginPath();
-        ctx.arc(x + (widthOfBox)/2, y + (lengthOfBox)/2, (widthOfBox-10)/2, 0, 2 * Math.PI);
+        ctx.arc(x + (widthOfBox)/2, y + (lengthOfBox)/2, (lengthOfBox-((10/500) * canvas.height))/2, 0, 2 * Math.PI);
         ctx.fillStyle = 'white';
         ctx.fill();
 }
@@ -177,4 +193,3 @@ canvas.addEventListener("click", function(e){
     }
   });
 })
-
