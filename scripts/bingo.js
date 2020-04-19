@@ -12,7 +12,7 @@ function resizeCanvas() {
       canvas.width = 500;
     }
     if(canvas.height > 600) {
-      canvas.width = 600;
+      canvas.height = 600;
     }
 }
 
